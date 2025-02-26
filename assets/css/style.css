@@ -785,3 +785,59 @@ footer h3 {
     font-size: 14px;
   }
 }
+
+/* ==========================================================================
+   Technical Skills Section
+   ========================================================================== */
+.skills-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-card {
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    padding: 15px;
+    width: calc(50% - 10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.skill-card h4 {
+    font-size: 18px;
+    color: #385A30;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.skill-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.skill-card i {
+    color: #1bbd9b;
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .skill-card {
+        width: 100%;
+    }
+}
+
