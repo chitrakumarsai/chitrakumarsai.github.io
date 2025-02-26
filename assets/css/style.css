@@ -185,6 +185,12 @@ address {
     margin-left: -58px;
     }
  
+ @media (max-width: 768px) {
+  .carousel-inner .item img {
+      height: auto;
+  }
+}
+ 
 }
 /*
 * ==========================================================================
