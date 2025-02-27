@@ -1221,4 +1221,12 @@ h3.lead, h4, h5, .technical-skills-list li strong, .education-list li h5 {
 .carousel-inner {
     transition: none;
 }
+.carousel-caption .carousel-title {
+    color: #ffffff !important;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
 
+.carousel-caption .carousel-body {
+    color: #f0f0f0 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
