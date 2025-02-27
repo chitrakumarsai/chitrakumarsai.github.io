@@ -840,4 +840,30 @@ footer h3 {
         width: 100%;
     }
 }
+/* ==========================================================================
+   Achievements List Styling
+   ========================================================================== */
+.achievements-list {
+    padding-left: 20px;
+    margin-top: 15px;
+    list-style: disc;
+}
+
+.achievements-list li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    color: #333;
+    font-size: 15px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.achievements-list li:before {
+    content: "\2022";
+    color: #1bbd9b;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
 
