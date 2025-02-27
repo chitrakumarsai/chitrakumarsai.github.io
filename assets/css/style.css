@@ -1121,5 +1121,41 @@ h3.lead, h4, h5, .technical-skills-list li strong, .education-list li h5 {
 .carousel-caption .resume-btn:hover {
     background-color: #0056b3;
 }
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.carousel-title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.carousel-body {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.resume-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.resume-btn:hover {
+    background: #0056b3;
+}
+
 
 
