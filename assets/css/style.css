@@ -931,5 +931,51 @@ footer h3 {
     font-weight: 600;
 }
 
+/* ==========================================================================
+   Technical Skills Section Styling
+   ========================================================================== */
+.side-left {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    color: #343a40;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.side-left h3.lead {
+    color: #007bff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.side-left hr {
+    border-top: 1px solid #dee2e6;
+    margin: 10px 0 20px 0;
+}
+
+.technical-skills-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #495057;
+}
+
+.technical-skills-list li {
+    margin-bottom: 10px;
+    border-left: 3px solid #007bff;
+    padding-left: 10px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.technical-skills-list li strong {
+    color: #343a40;
+    font-weight: 600;
+}
+
 
 
