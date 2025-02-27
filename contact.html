@@ -15,46 +15,56 @@ published: true
       <div class="col-lg-4">
         <h4>Reach me at:</h4>
 
-        <p class="block-author">{{ site.company_name }}</p>
-        <p>{{ site.address_line }}</p>
-        <p>Phone: {{ site.telephone_number }}</p>
-        <!-- <p>Fax: {{ site.fax_number }}</p> -->
-
-        <em class="block-author">Email: {{ site.company_email }}</em> <br>
-        <br>
-        <!-- p class="lead">Social Link</p><hr>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-          <a href="#"><img src="assets/img/social-icons/btn_skype.png" alt="Skype"></a>
-          Call us
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-          <a href="#"><img src="assets/img/social-icons/btn_facebook.png" alt="Facebook"></a>
-          Like us
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-12">
-          <a href="#"><img src="assets/img/social-icons/btn_twitter.png" alt="Twitter"></a>
-          Follow us
-        </div>
-        <br !-->
+        <p class="block-author">Chitra Kumar Sai Chenuri Venkata</p>
+        <p>Data Scientist</p>
+        <p>Location: Kansas, USA</p>
+        <p>Phone: +1 (316) 123-4567</p>
+        <em class="block-author">Email: <a href="mailto:chitrakumarsai@gmail.com">chitrakumarsai@gmail.com</a></em> 
+        <br><br>
+        
+        <p class="lead">Connect with me:</p>
+        <hr>
+        <ul class="social-links">
+          <li>
+            <a href="https://www.linkedin.com/in/chitrakumarsai/" target="_blank">
+              <i class="fa fa-linkedin-square"></i> LinkedIn
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@chitrakumarsai" target="_blank">
+              <i class="fa fa-medium"></i> Medium
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/chitrakumarsai" target="_blank">
+              <i class="fa fa-github"></i> GitHub
+            </a>
+          </li>
+          <li>
+            <a href="mailto:chitrakumarsai@gmail.com">
+              <i class="fa fa-envelope"></i> Email
+            </a>
+          </li>
+        </ul>
       </div>
+      
       <div class="col-lg-8">
         <div class="feedback-form">
-
           <div id="contact-response"></div>
           
-          <form action="http://templates.designorbital.com/baleen/contact.php" method="post" id="contact-form">
+          <form action="mailto:chitrakumarsai@gmail.com" method="post" enctype="text/plain" id="contact-form">
             <fieldset>
               <div class="form-group form-group-fullname">
                 <label class="control-label" for="fullname">NAME *</label>
-                <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter Your Name">
+                <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter Your Name" required>
               </div>
               <div class="form-group form-group-email">
                 <label class="control-label" for="email">E-MAIL *</label>
-                <input type="text" class="form-control" name="email" id="email" placeholder="Enter Your E-Mail">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Enter Your E-Mail" required>
               </div>
               <div class="form-group form-group-message">
                 <label class="control-label" for="message">MESSAGE *</label>
-                <textarea class="form-control" name="message" id="message" rows="3"></textarea>
+                <textarea class="form-control" name="message" id="message" rows="3" required></textarea>
               </div>           
               <button type="submit" class="btn btn-primary">Submit</button>
             </fieldset>
@@ -65,5 +75,31 @@ published: true
     </div>
   </div>
 </div>    
-    
+
 <!--End Main Container -->
+
+<!-- Social Links Styling -->
+<style>
+  .social-links {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .social-links li {
+    margin-bottom: 10px;
+  }
+
+  .social-links li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+  }
+
+  .social-links li a:hover {
+    color: #0056b3;
+  }
+
+  .social-links li i {
+    margin-right: 8px;
+  }
+</style>
