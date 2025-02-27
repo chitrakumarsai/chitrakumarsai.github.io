@@ -901,4 +901,16 @@ footer h3 {
     color: #888;
     font-style: italic;
 }
+/* ==========================================================================
+   Work Duration Styling
+   ========================================================================== */
+.work-duration {
+    display: block;
+    font-size: 14px;
+    color: #888;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
 
