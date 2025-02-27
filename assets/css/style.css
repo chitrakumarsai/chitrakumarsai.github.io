@@ -1041,5 +1041,53 @@ h3.lead, h4, h5, .technical-skills-list li strong, .education-list li h5 {
     margin-top: -10px;
     margin-bottom: 10px;
 }
+/* ==========================================================================
+   Medium Articles Section Styling
+   ========================================================================== */
+.medium-section-title {
+    color: #007bff;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 30px;
+    font-family: 'Lora', serif;
+}
+
+.medium-articles {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medium-post h3 {
+    font-size: 20px;
+    color: #343a40;
+    font-family: 'Lora', serif;
+}
+
+.medium-post p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    font-family: 'Lora', serif;
+}
+
+.medium-post a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+
+.medium-post a:hover {
+    color: #0056b3;
+}
+
+.badge {
+    background-color: #6c757d;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
 
 
