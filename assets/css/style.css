@@ -764,7 +764,7 @@ footer h3 {
 * ==========================================================================
 */
 .carousel-caption .carousel-title {
-  color: #ffffff;
+  color: #000000;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .carousel-caption {
@@ -1109,7 +1109,7 @@ h3.lead, h4, h5, .technical-skills-list li strong, .education-list li h5 {
 .carousel-caption .resume-btn {
     display: inline-block;
     padding: 10px 20px;
-    margin-top: 8px;
+    margin-top: 5px;
     color: #fff;
     background-color: #007bff;
     border-radius: 5px;
